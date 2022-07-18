@@ -6,11 +6,10 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import zerokun265.fabric.totem_of_dying.TotemOfDying;
-import zerokun265.fabric.totem_of_dying.item.custom.TotemOfDyingItem;
 
 public class ModItems {
 
-    public static final Item TOTEM_OF_DYING = registerItem("totem_of_dying", new TotemOfDyingItem(new FabricItemSettings().maxCount(1).group(ItemGroup.COMBAT)));
+    public static final Item TOTEM_OF_DYING = registerItem("totem_of_dying", new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.COMBAT)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TotemOfDying.MODID, name), item);

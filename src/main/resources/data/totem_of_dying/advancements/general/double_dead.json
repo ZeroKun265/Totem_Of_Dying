@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:adventure/totem_of_undying",
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "totem_of_dying.advancements.general.double_dead.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "totem_of_dying:totem_of_dying"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "totem_of_dying.advancements.general.double_dead.title"
+    }
+  },
+  "criteria": {
+    "double_dead": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [],
+        "item": {
+          "items": [
+            "totem_of_dying:totem_of_dying"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "double_dead"
+    ]
+  ]
+}
