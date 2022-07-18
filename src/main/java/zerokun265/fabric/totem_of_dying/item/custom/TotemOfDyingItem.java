@@ -31,6 +31,8 @@ public class TotemOfDyingItem extends Item {
 
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
+    // TODO: redo the entire thing *sigh* There is a bug that makes it so if you have 2 totems in your inventory they don't work
+        // So it needs to be made into a mixin for some method of the LivingEntity i guess
 
         // If a player is holding the totem..
         if(entity.isPlayer()) {
@@ -43,6 +45,8 @@ public class TotemOfDyingItem extends Item {
                 }
                 if (getHolders_health() > player.getHealth()) {
                     // TODO: Destroy the item once player is dead
+                    player.getOffHandStack().setCount(0);
+                    player.getMainHandStack().setCount(0);
                     player.kill();
                 }
 
