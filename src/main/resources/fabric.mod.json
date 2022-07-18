@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "totem_of_dying",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/totem_of_dying/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "zerokun265.fabric.totem_of_dying.TotemOfDying"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "totem_of_dying.mixins.json"
   ],
 
   "depends": {
