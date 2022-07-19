@@ -1,3 +1,5 @@
 {
-  "item.totem_of_dying.totem_of_dying": "Totem Of Dying"
+  "item.totem_of_dying.totem_of_dying": "Totem Of Dying",
+  "totem_of_dying.advancements.general.double_dead.description": "Consume 2 Totems Of Dying together",
+  "totem_of_dying.advancements.general.double_dead.title": "Double Dead!"
 }
