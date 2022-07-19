@@ -5,7 +5,7 @@
     "description": {
       "translate": "totem_of_dying.advancements.general.double_dead.description"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": true,
     "icon": {
       "item": "totem_of_dying:totem_of_dying"
@@ -17,15 +17,7 @@
   },
   "criteria": {
     "double_dead": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "player": [],
-        "item": {
-          "items": [
-            "totem_of_dying:totem_of_dying"
-          ]
-        }
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [

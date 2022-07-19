@@ -10,7 +10,6 @@ import zerokun265.fabric.totem_of_dying.TotemOfDying;
 public class ModItems {
 
     public static final Item TOTEM_OF_DYING = registerItem("totem_of_dying", new Item(new FabricItemSettings().maxCount(1).group(ItemGroup.COMBAT)));
-
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TotemOfDying.MODID, name), item);
     }

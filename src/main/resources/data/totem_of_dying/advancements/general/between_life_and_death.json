@@ -1,0 +1,28 @@
+{
+  "parent": "totem_of_dying:general/double_dead",
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "totem_of_dying.advancements.general.between_life_and_death.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "totem_of_dying.advancements.general.between_life_and_death.title"
+    }
+  },
+  "criteria": {
+    "between_life_and_death": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "between_life_and_death"
+    ]
+  ]
+}

@@ -1,5 +1,10 @@
 {
   "item.totem_of_dying.totem_of_dying": "Totem Of Dying",
+
   "totem_of_dying.advancements.general.double_dead.description": "Consume 2 Totems Of Dying together",
-  "totem_of_dying.advancements.general.double_dead.title": "Double Dead!"
+  "totem_of_dying.advancements.general.double_dead.title": "Double Dead!",
+  "totem_of_dying.advancements.general.between_life_and_death.description": "Use a Totem Of Dying and a Totem Of Undying",
+  "totem_of_dying.advancements.general.between_life_and_death.title": "Between Life and Death",
+
+  "totem_of_dying.messages.dead_and_back_alive": "just died and then rose back from the dead as if nothing happened!"
 }

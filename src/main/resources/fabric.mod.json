@@ -3,14 +3,15 @@
   "id": "totem_of_dying",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Totem Of Dying",
+  "description": "Nothing to see here, move along.",
   "authors": [
-    "Me!"
+    "ZeroKun265"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/ZeroKun265/Totem_Of_Dying",
+    "issues": "https://github.com/ZeroKun265/Totem_Of_Dying/issues"
   },
 
   "license": "CC0-1.0",
