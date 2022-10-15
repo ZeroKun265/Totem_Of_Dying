@@ -95,7 +95,7 @@ public abstract class TotemOfDyingPlayerMixin {
                 giveAchievement(player, "between_life_and_death");
                 // NOTE: Color is the integer form of any HEX Color code, in this case #BA0F29 -> 12193577 a darkish red
                 player.getServer().getPlayerManager().broadcast(Text.literal(player.getDisplayName().getString() + " ").append(
-                        Text.translatable("totem_of_dying.messages.dead_and_back_alive")).setStyle(Style.EMPTY.withColor(12193577)), MessageType.SYSTEM);
+                        Text.translatable("totem_of_dying.messages.dead_and_back_alive")).setStyle(Style.EMPTY.withColor(12193577)), false);
 
                 player.getWorld().addBlockBreakParticles(player.getBlockPos().down(1), player.getWorld().getBlockState(player.getBlockPos().down(1)));
 
