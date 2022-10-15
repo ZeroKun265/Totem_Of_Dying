@@ -3,7 +3,7 @@
 
 ![Enviroment: both](https://img.shields.io/badge/environment-both-4caf50?style=flat-square)
 
-![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-blueviolet?style=for-the-badge)
+![Version: 1.0.1](https://img.shields.io/badge/Version-1.0.1-blueviolet?style=for-the-badge)
 # Totem Of Dying
 A Minecraft mod that adds a Totem Of Dying to the game, inspired by a Youtube comment.
 
