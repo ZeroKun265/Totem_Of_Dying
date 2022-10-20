@@ -1,0 +1,10 @@
+{
+  "item.totem_of_dying.totem_of_dying": "Totem della mortalità",
+
+  "totem_of_dying.advancements.general.double_dead.description": "Consuma 2 totem della mortalità contemporaneamente",
+  "totem_of_dying.advancements.general.double_dead.title": "Doppia morte!",
+  "totem_of_dying.advancements.general.between_life_and_death.description": "Usa un totem della mortalità e un totem dell'immortalità",
+  "totem_of_dying.advancements.general.between_life_and_death.title": "Tra la vita e la morte",
+
+  "totem_of_dying.messages.dead_and_back_alive": "è appena morto e risorto come se nulla fosse successo!"
+}
